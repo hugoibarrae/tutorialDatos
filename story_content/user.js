@@ -2,13 +2,13 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6IKu89PQGFO":
+      case "5g4xAMnUVhC":
         Script1();
         break;
-      case "5mf60PFJVSi":
+      case "5auxWpgRcLQ":
         Script2();
         break;
-      case "62Q91QzvifL":
+      case "5rjU7xAC2pS":
         Script3();
         break;
   }
@@ -38,7 +38,7 @@ storyline =
  "date" : new Date().toJSON().slice(0,10), //STORE DATE
  "name" : player.GetVar("nombre"),
  "email" : player.GetVar("mail"),
- "message" : player.GetVar("message")
+ "message" : player.GetVar("mensaje")
 }
 }
 
